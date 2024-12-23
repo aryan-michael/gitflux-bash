@@ -1,0 +1,10 @@
+3 scripts needed:
+  - installation script (install.sh)
+  - uninstallation script (uninstall.sh)
+  - binary (gitflux.sh)
+
+---
+
+All the scripts need to be added to PATH so as to be accessed globally.
+The binary script needs to be symlinked.
+ - the application should be run by `gitflux` and not `./gitflux.sh`.
